@@ -1,3 +1,4 @@
+
 # Qt build files
 build/
 *.o
@@ -9,3 +10,15 @@ build/
 Makefile
 CMakeCache.txt
 CMakeFiles/
+
+build/ 
+*.pro.user 
+*.pro.user.* 
+.qmake.stash 
+Makefile* 
+*.o 
+moc_* 
+ui_* 
+debug/ 
+release/ 
+
