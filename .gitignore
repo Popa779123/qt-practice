@@ -1,0 +1,11 @@
+# Qt build files
+build/
+*.o
+*.obj
+*.exe
+*.dll
+*.user
+*.pro.user
+Makefile
+CMakeCache.txt
+CMakeFiles/
