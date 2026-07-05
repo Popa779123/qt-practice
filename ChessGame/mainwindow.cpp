@@ -32,7 +32,7 @@ MainWindow::MainWindow(QWidget *parent)
         }
     }
 
-    // Кэш иконок
+    //Иконки
     pieceIcons[0][0] = QIcon(":/images/wK.png"); pieceIcons[1][0] = QIcon(":/images/bK.png");
     pieceIcons[0][1] = QIcon(":/images/wQ.png"); pieceIcons[1][1] = QIcon(":/images/bQ.png");
     pieceIcons[0][2] = QIcon(":/images/wR.png"); pieceIcons[1][2] = QIcon(":/images/bR.png");
