@@ -65,7 +65,7 @@ bool Pawn::isValidMove(const Board board, int fromRow, int fromCol, int toRow, i
     if (colDiff == 0 && rowDiff == direction && board[toRow][toCol] == nullptr)
         return true;
 
-    \
+    
     if (colDiff == 0 && rowDiff == 2 * direction && fromRow == startRow && !hasMoved) {
         if (board[toRow][toCol] == nullptr &&
             board[fromRow + direction][fromCol] == nullptr)
